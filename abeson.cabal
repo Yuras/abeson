@@ -1,5 +1,5 @@
 name:                abeson
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            interconversion between aeson and bson.
 license:             MIT
 license-file:        LICENSE
@@ -18,7 +18,7 @@ library
   exposed-modules:     Data.Abeson
   build-depends:       base                 >=4.6   && <4.9
                      , data-default-class   >=0.0   && <0.1
-                     , aeson                >=0.7   && <0.10
+                     , aeson                >=0.7   && <1.2
                      , bson                 >=0.3   && <0.4
                      , bytestring           >=0.10  && <0.11
                      , base64-bytestring    >=1.0   && <1.1
